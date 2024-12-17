@@ -21,7 +21,7 @@ function downloadCV() {
   
   // Menetapkan atribut unduhan dan href
   tempLink.setAttribute('href', '/assets/vendor/file/CV.png'); // Gantilah dengan path yang sesuai
-  tempLink.setAttribute('download', 'CV.PNG'); // Gantilah dengan nama file yang sesuai
+  tempLink.setAttribute('download', 'CV.png'); // Gantilah dengan nama file yang sesuai
 
   // Menambahkan elemen ke dokumen
   document.body.appendChild(tempLink);
